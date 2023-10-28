@@ -17,8 +17,8 @@ Generate images with the specified group of characters.
 
 | Color | RGB | Swatch   |
 | ----- | :-: | :------: |
-| BLUE  |55 182 246 | <div style="width: 25px; height: 25px; background-color: rgb(55,182,246); margin:auto"></div> |
-| ORANGE | 249 157 7 | <div style="width: 25px; height: 25px; background-color: rgb(249, 157, 7); margin:auto"></div> |
-| YELLOW | 249 225 4 | <div style="width: 25px; height: 25px; background-color: rgb(249, 225, 4); margin:auto"></div> |
-| GREEN | 53 212 97 | <div style="width: 25px; height: 25px; background-color: rgb(53, 212, 97); margin:auto"></div> |
-| PURPLE | 136 47 246 | <div style="width: 25px; height: 25px; background-color: rgb(136, 47, 246); margin:auto"></div> |
+| Blue  |55 182 246 | ![Blue](swatches/blue.svg) |
+| Orange | 249 157 7 | ![Orange](swatches/orange.svg) |
+| Yellow | 249 225 4 | ![Yellow](swatches/yellow.svg) |
+| Green | 53 212 97 | ![Green](swatches/green.svg) |
+| Purple | 136 47 246 | ![Purple](swatches/purple.svg) |
