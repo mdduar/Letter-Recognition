@@ -12,6 +12,7 @@ Generate images with the specified group of characters.
 | `--lowercase`, `-l` | include the lowercase letter | `False` | ✖️ |
 | `--numbers`, `-n` | include the numbers 0-9 | `False` | ✖️ |
 | `--font-size`, `-fs` | font-size for each character | `900` | ✖️ |
+| `--character-set`, `-cs` | custom character set| `None` | ✖️ |
 
 ### Options for Colors:
 

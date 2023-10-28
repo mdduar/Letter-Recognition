@@ -3,16 +3,6 @@ from PIL import Image, ImageDraw, ImageFont
 import string
 import os
 
-## BLUE 55 182 246
-
-## ORANGE 249 157 7
-
-## YELLOW 249 225 4
-
-## GREEN 53 212 97
-
-## PURPLE 136 47 246
-
 def main():
   parser = argparse.ArgumentParser(
     description='Generate Images',
@@ -49,8 +39,14 @@ def main():
   parser.add_argument('--font-size', '-fs', type=int, default=900,
                       help='font-size for each character')
   
+  parser.add_argument('--character-set', '-cs', type=str, default=None,
+                      help='custom character set')
+  
   args = parser.parse_args()
   characters = []
+
+  if args.character_set:
+    characters.extend(args.character_set)
   
   if args.uppercase:
     characters.extend(string.ascii_uppercase)
