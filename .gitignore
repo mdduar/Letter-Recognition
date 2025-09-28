@@ -159,7 +159,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-*.png
-fonts/*
-!fonts/.gitkeep
-!output/.gitkeep
+output/*.png
+assets/fonts/*
+!assets/fonts/.gitkeep
+!assets/output/.gitkeep
